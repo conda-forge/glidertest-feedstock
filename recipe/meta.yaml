@@ -35,6 +35,8 @@ requirements:
     - gsw
     - sgp4 >=2.14
     - cartopy
+    - ioos_qc
+    - tqdm
 
 test:
   imports:
