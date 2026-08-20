@@ -1,13 +1,13 @@
 {% set name = "glidertest" %}
-{% set version = "0.0.2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/glidertest-{{ version }}.tar.gz
-  sha256: bcdcbda3890626b74b8f2af02857f3eb4c00b28fecebbb8b683857f8c64b03ac
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/glidertest-{{ version }}.tar.gz
+  sha256: 01d129bc2d68dce0aeda17a2adee47eb55aa6a608990cfc21870558f9fc2e5e3
 
 build:
   noarch: python
@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - netcdf4
     - pooch
     - xarray
     - numpy
@@ -37,6 +36,12 @@ requirements:
     - cartopy
     - ioos_qc
     - tqdm
+    - folium
+    - ipywidgets
+    - pypandoc
+    - rstcloth
+    - h5netcdf
+    - h5py
 
 test:
   imports:
