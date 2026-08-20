@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - netcdf4
     - pooch
     - xarray
     - numpy
@@ -37,6 +36,12 @@ requirements:
     - cartopy
     - ioos_qc
     - tqdm
+    - folium
+    - ipywidgets
+    - pypandoc
+    - rstcloth
+    - h5netcdf
+    - h5py
 
 test:
   imports:
