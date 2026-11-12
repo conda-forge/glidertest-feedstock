@@ -23,11 +23,10 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - netcdf4
     - pooch
     - xarray
     - numpy
-    - matplotlib-base
+    - matplotlib
     - pandas
     - seaborn
     - scipy
@@ -35,8 +34,18 @@ requirements:
     - gsw
     - sgp4 >=2.14
     - cartopy
-    - ioos_qc
-    - tqdm
+    - folium
+    - cmocean
+    - h5netcdf
+    - ruamel.yaml >=0.18
+    - ipywidgets
+    - ipython
+    - pyyaml
+    - ioos-qc
+    - h5py
+    - jinja2
+    - pillow
+
 
 test:
   imports:
