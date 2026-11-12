@@ -3,7 +3,7 @@ About glidertest-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/glidertest-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/callumrollo/glidertest
+Home: https://github.com/OceanGlidersCommunity/glidertest
 
 Package license: MIT
 
