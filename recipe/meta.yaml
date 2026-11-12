@@ -26,7 +26,7 @@ requirements:
     - pooch
     - xarray
     - numpy
-    - matplotlib
+    - matplotlib-base
     - pandas
     - seaborn
     - scipy
